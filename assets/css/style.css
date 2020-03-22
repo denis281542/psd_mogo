@@ -220,5 +220,34 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 24px;
     font-weight: 400px;
     color: black;
-    font-family: 'Kaushan Script';
+    font-family: 'Kaushan Script', cursive;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background-color: #f38181;
+}
+
+.section__text {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+/* About */
+.about {
+    display: flex;
+    justify-content: space-between;
 }
