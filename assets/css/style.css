@@ -255,3 +255,7 @@ h1, h2, h3, h4, h5, h6, p {
 .about__item {
     width: 30%;
 }
+
+.about__img {
+    background: linear-gradient(to bottom, #f38181,#fce38a);
+}
