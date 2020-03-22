@@ -253,9 +253,80 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about__item {
-    width: 30%;
+    width: 380px;
+    background-color: #95e1d3;
+    position: relative;
+}
+
+.about__item:hover .about__img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about__item:hover .about__img img {
+    opacity: .1;
+}
+
+.about__item:hover .about__text {
+    opacity: 1;
 }
 
 .about__img {
     background: linear-gradient(to bottom, #f38181,#fce38a);
+    transition: transform .2s linear;
 }
+
+.about__img img {
+    display: block;
+    transition: opacity .1 linear;
+}
+
+.about__text {
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+
+    transform: translate3d(0, -50%, 0);
+    transition: opacity .1s linear ;
+}
+
+/* Statistics */
+.statistics {
+    background-color: #95e1d3;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat_item {
+    flex: 1 1 0;
+    padding: 80px 25px;
+
+    border-left: 1px solid #b5eae0;
+    text-align: center;
+    color: #fff;
+}
+
+.stat_item:last-child {
+    border-right: 1px solid #b5eae0;
+}
+
+.stat__count {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.stat__text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
