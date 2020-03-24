@@ -219,6 +219,7 @@ hr {
 }
 
 .section--devices {
+    margin-bottom: 40px;
     padding-bottom: 0;
     background: url("../images/devices-bg.jpg")
     center no-repeat;
@@ -394,5 +395,18 @@ hr {
     right: 0;
     bottom: -70px;
     z-index: 1;
+}
+
+/* We do */
+.wedo {
+    display: flex;
+}
+
+.wedo__item {
+    width: 50%;
+}
+
+.accordion__item {
+    border: 1px solid #e5e5e5;
 }
 
