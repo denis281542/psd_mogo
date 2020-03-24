@@ -409,10 +409,16 @@ hr {
 /* Accordion */
 .accordion__item {
     border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
 }
 
 .accordion__item.activ .accordion__content {
     display: block;
+}
+
+.accordion__item.activ
+.accordion__header {
+    border-bottom-color: #e5e5e5;
 }
 
 .accordion__item.activ
@@ -422,7 +428,7 @@ hr {
 }
 
 .accordion__header {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid transparent;
     padding: 20px 15px 20px 60px;
     position: relative;
 }
