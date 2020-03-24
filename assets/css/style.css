@@ -411,6 +411,16 @@ hr {
     border: 1px solid #e5e5e5;
 }
 
+.accordion__item.activ .accordion__content {
+    display: block;
+}
+
+.accordion__item.activ
+.accordion__header:after {
+    transform: translateY(-50%) rotate(-45deg);
+    margin-top: 5px;
+}
+
 .accordion__header {
     border-bottom: 1px solid #e5e5e5;
     padding: 20px 15px 20px 60px;
@@ -422,7 +432,6 @@ hr {
     display: block;
     width: 16px;
     height: 16px;
-    margin-top: 6px;
 
     border-top: 2px solid #cccccc;
     border-right: 2px solid #cccccc;
@@ -432,7 +441,7 @@ hr {
     top: 50%;
     z-index: 1;
 
-    transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(135deg);
 }
 
 .accordion__icon {
