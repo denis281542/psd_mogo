@@ -282,15 +282,15 @@ hr {
     position: relative;
 }
 
-.card__item:hover .card__img {
+.card__inner:hover .card__img {
     transform: translate3d(-10px, -10px, 0);
 }
 
-.card__item:hover .card__img img {
+.card__inner:hover .card__img img {
     opacity: .1;
 }
 
-.card__item:hover .card__text {
+.card__inner:hover .card__text {
     opacity: 1;
 }
 
@@ -608,4 +608,11 @@ hr {
     color: #fff;
     background-color: #f38181;
     border-color: #f38181;
+}
+
+/* Logos */
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
