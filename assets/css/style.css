@@ -868,3 +868,23 @@ hr {
     background-color: #f38181;
     margin: 15px auto 0;
 }
+
+/* Footer */
+.footer {
+    background-color: #f8f8f8;
+    padding-top: 65px;
+}
+
+.footer__logo{
+    font-size: 46px;
+    font-weight: 700;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.footer__text {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 30px;
+}
