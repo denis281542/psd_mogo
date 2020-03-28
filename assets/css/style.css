@@ -888,3 +888,37 @@ hr {
     color: #999999;
     margin-bottom: 30px;
 }
+
+.footer__social {
+    margin-bottom: 35px;
+}
+
+.footer__social-header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__social-header b {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer__social-content {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 15px;
+    color: #999999;
+}
+
+.footer__social-content a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #95e1d3;
+}
