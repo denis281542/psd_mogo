@@ -1105,6 +1105,10 @@ hr {
     .nav {
         display: none;
     }
+
+    .slider__text {
+        display: none;
+    }
     
 }
 
