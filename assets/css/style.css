@@ -963,7 +963,7 @@ hr {
 .blogs__title {
     display: block;
     margin-bottom: 5px;
-    
+
     font-size: 12px;
     font-weight: 400;
     color: black;
@@ -1058,3 +1058,16 @@ hr {
     outline: 0;
 }
 
+/* Copyright */
+.copyright {
+    font-size: 14px;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+    color: #333333;
+    font-weight: 400;
+    text-align: center;
+}
+
+.copyright span {
+    color: #f38181;
+}
