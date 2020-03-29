@@ -1102,7 +1102,9 @@ hr {
 
 @media (max-width: 770px) {
     
-    
+    .nav {
+        display: none;
+    }
     
 }
 
